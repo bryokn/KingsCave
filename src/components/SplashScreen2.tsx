@@ -16,6 +16,10 @@ const SplashScreen2 = () => {
 
   return (
     <View style={styles.container}>
+        {/* <Image
+            source={require('../assets/hammer.svg')}
+            style={styles.image}
+        /> */}
       <Text style={styles.text}>Your Ultimate Masculine Space</Text>
     </View>
   );
@@ -28,6 +32,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#2C2C2C',
   },
+//   image:{
+//     width: 200,
+//     height: 200,
+//     marginBottom: 20,
+//   },
   text: {
     fontSize: 24,
     color: '#FFFFFF',
